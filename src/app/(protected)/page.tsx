@@ -7,7 +7,7 @@ export default async function Home() {
 
   return (
     <main className="flex flex-col h-screen justify-center items-center">
-      <Card className="w-full max-w-md">
+      <Card className="w-full max-w-md p-4">
         <pre>
           Current session object:{" "}
           <code>{JSON.stringify(session, null, 2)}</code>
